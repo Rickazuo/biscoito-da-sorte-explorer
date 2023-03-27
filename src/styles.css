@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(45deg, #190361 0%, #bb00ff 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.box-biscuit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 26.75rem;
+  height: 26.5rem;
+
+  background: #ffffff;
+  box-shadow: 0px 1.25rem 3.125rem rgba(0, 0, 0, 0.8);
+  border-radius: 0.3125rem;
+}
+
+.box-biscuit h1 {
+  width: 16.1569rem;
+  height: 3.625rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  text-align: center;
+  color: #34355b;
+
+  margin-bottom: 0.875rem;
+}
+
+.box-biscuit p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  text-align: center;
+
+  margin-bottom: 1.25rem;
+}
+
+.box-biscuit button {
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.box-biscuit button img {
+  transition: transform 0.3s ease-in-out;
+  width: 18.5rem;
+}
+
+.box-biscuit button:hover img {
+  transform: scale(1.1); /* zoom in the image when the user hovers over it */
+}
+
+.box-broken-biscuit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 4rem;
+  gap: 1.0625rem;
+
+  width: 26.75rem;
+  height: 35.25rem;
+
+  background: #ffffff;
+  box-shadow: 0rem 1.25rem 3.125rem rgba(0, 0, 0, 0.8);
+  border-radius: 0.3125rem;
+  display: none;
+}
+
+.box-broken-biscuit h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  text-align: center;
+
+  color: #34355b;
+}
+
+.box-broken-biscuit p {
+  padding: 0.625rem;
+  gap: 0.625rem;
+
+  width: 18.3125rem;
+  height: 7.9375rem;
+
+  background: #e4edf1;
+  box-shadow: 0.125rem 0.125rem 0.125rem rgba(85, 85, 85, 0.5);
+
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  text-align: center;
+
+  color: #000000;
+}
+
+.box-broken-biscuit button {
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem;
+  gap: 0.625rem;
+
+  width: 10.875rem;
+  height: 3.25rem;
+
+  background: #a35f00;
+  border-radius: 0.25rem;
+  border: transparent;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+
+  text-align: center;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.box-broken-biscuit button:hover {
+  background: #d27f0c;
+}
+
+@media screen and (max-width: 500px) {
+  .box-biscuit {
+    width: auto;
+  }
+
+  .box-broken-biscuit {
+    width: auto;
+    height: auto;
+    padding: 1.25rem;
+  }
+}
