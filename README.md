@@ -14,7 +14,7 @@ Um gerador de biscoito da sorte é o desafio do Stage 05 do curso Explore - Rock
 <br>
 
 <p align="center" id="-layout">
-  <img alt="kanban gif" src="./assets/luckyBiscuit.gif" width="100%">
+  <img alt="lucky biscuit gif" src="./assets/luckyBiscuit.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto _Biscoito da Sorte_ foi realizado como parte do curso de desenvolvimento de software da <a href="https://www.rocketseat.com.br/" alt="Link para o GitHub do professor Mayk Brito" target="_blank">RocketSeat</a>.
+O projeto _Biscoito da Sorte_ foi realizado como parte do curso de desenvolvimento de software da <a href="https://www.rocketseat.com.br/" alt="Link para o site da RocketSeat" target="_blank">RocketSeat</a>.
 
 <h1 align="center">
   Funcionalidades
