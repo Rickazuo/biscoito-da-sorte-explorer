@@ -45,4 +45,4 @@ _<h2 align="center" ><a href="https://rickazuo.github.io/biscoito-da-sorte-explo
 
 ## 📃 Colaboradores
 
-This challange was made by [Ricardo](https://rickazuo.github.io/portfolio/).
+This challenge was made by [Ricardo](https://rickazuo.github.io/portfolio/).
